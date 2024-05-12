@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <script src="https://kit.fontawesome.com/c9b87a4bee.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sevillana&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi primera web</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://kit.fontawesome.com/73e38ee05b.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</head>
+
+<body>
+
+</html>
+<div class="container">
+    <header>
+        <a href="index.html">
+            <i class="fa-solid fa-cart-shopping"></i>
+        </a>
+        <nav class="encabezado">
+            <input type="checkbox" id="check" />
+            <label for="check" class="checkbtn">
+                <i class="fa-solid fa-bars"></i>
+            </label>
+            <ul class="sevillana-regular menu">
+                <li><a href="./formulario/formulario.html">Formulario</a></li>
+                <li>Acerca de mí</li>
+                <li>Trabajos</li>
+                <li>Servicios</li>
+                <li>Contacto</li>
+            </ul>
+    </header>
+    <main id="sección-principal">
+        <section class="sección-1">
+            <div class="Acerca-de">
+                <h2>Acerca de mí</h2>
+                <p>Mi página web</p>
+                <p>Hola, yo soy Camila Bafumo, te invito a que conozcas mi página y su contenido </p>
+                <form action="www.api.com/api/products" method="post">
+                    <!-- CAMPOS DEL FORMULARIO -->
+                </form>
+                <label for="nombre">Cantidad:</label>
+                <input type="text" name="cantidad" placeholder="Ingrese la cantidad" id="cantidad" required />
+            </div>
+            <div>
+                <label for="pais">Pais:</label>
+                <select name="pais" id="pais">
+                    <option value="argentina">Argentina</option>
+                    <option value="bolivia">Bolivia</option>
+                    <option value="chile">Chile</option>
+                    <option value="peru">Perú</option>
+                    <option value="uruguay">Uruguay</option>
+                    <option value="venezuela">Venezuela</option>
+                    <option value="default" selected>Seleccionar</option>
+                </select>
+            </div>
+            <div>
+                <label for="consulta">Consulta:</label>
+                <textarea name="consulta" id="consulta"></textarea>
+                <div>
+                    <button type="submit">ENVIAR</button>
+                </div>
+            </div>
+            <div class="Acerca-imagen">
+                <img src="https://i.pinimg.com/564x/31/c7/7f/31c77f0357bbb4b0338911ea693813ca.jpg"
+                    alt="imagen portable">
+            </div>
+        </section>
+        <section>
+            <img src="https://i.pinimg.com/236x/2e/7f/57/2e7f57da5f1fee094eda0333beb753b1.jpg" alt="">
+        </section>
+
+    </main>
+    <button id="btn-generar">Generar Frase Aleatoria</button>
+    <footer id="footer">
+        <p id="frase"></p>
+    </footer>
+</div>
+<script src="./index.js"></script>
+</body>
